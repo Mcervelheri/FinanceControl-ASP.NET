@@ -1,0 +1,30 @@
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\appsettings.Development.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\appsettings.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).staticwebassets.runtime.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).exe
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).deps.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).runtimeconfig.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).dll
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\bin\Debug\net8.0\ASP.NET Core (MVC).pdb
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).AssemblyInfoInputs.cache
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).AssemblyInfo.cs
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).csproj.CoreCompileInputs.cache
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).RazorAssemblyInfo.cache
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).RazorAssemblyInfo.cs
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets\msbuild.ASP.NET Core (MVC).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets\msbuild.build.ASP.NET Core (MVC).props
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NET Core (MVC).props
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASP.NET Core (MVC).props
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\scopedcss\bundle\ASP.NET Core (MVC).styles.css
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\scopedcss\projectbundle\ASP.NET Core (MVC).bundle.scp.css
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).dll
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\refint\ASP.NET Core (MVC).dll
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).pdb
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ASP.NET Core (MVC).genruntimeconfig.cache
+C:\Projetos\ASP.NET Core (MVC)\ASP.NET Core (MVC)\obj\Debug\net8.0\ref\ASP.NET Core (MVC).dll
