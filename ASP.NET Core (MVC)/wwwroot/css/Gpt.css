@@ -1,0 +1,56 @@
+﻿/* Body styles */
+body {
+    background: linear-gradient(to bottom, #282c34, #20232a);
+    color: #fff;
+    font-family: sans-serif; /* Change this to your preferred font */
+}
+
+/* Container styles */
+.container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Button styles */
+.btn {
+    margin-right: 10px;
+}
+
+/* Table styles */
+.table {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    border-color: #333; /* Change border color if needed */
+    color: #fff;
+}
+
+    /* Table header styles */
+    .table thead th {
+        text-align: left;
+        padding: 1rem;
+    }
+
+    /* Table body styles */
+    .table tbody tr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thin border for rows */
+    }
+
+        .table tbody tr td {
+            padding: 1rem;
+        }
+
+/* Alert styles */
+.alert-success {
+    background-color: #38b000;
+    border-color: #2e8b00;
+}
+
+    /* Success message styles */
+    .alert-success p {
+        margin: 0;
+    }

@@ -1,0 +1,70 @@
+﻿@model ASP.NET_Core__MVC_.Models.Expense
+@{
+    ViewData["title"] = "Excluir gasto";
+}
+
+<div class="container bg-dark p-3 rounded-5">
+
+    <div class="mb-3 text-center">
+        <h1 class="text-light">Exclusão de gastos</h1>
+    </div>
+
+    <form method="post" asp-controller="Expense" asp-action="DeleteConfirmed">
+        <input type="hidden" asp-for"Id" />
+
+        <h2 class="text-light">Tem certeza que deseja excluir o registor?</h2>
+
+        <div class="mb-1">
+            <label asp-for="CategoryId" class="form-label text-light">Categoria</label>
+            <select asp-for="CategoryId" asp-items="ViewBag.CategoryId" class="form-select" disabled>
+            </select>
+            <span class="text-danger" asp-validation-for="CategoryId"></span>
+        </div>
+
+
+        <div class="mb-1">
+            <label for="Date" class="form-label text-light">Data</label>
+            <input asp-for="Date" type="date" class="form-control" id="dateInput" disabled>
+            <span class="text-danger" asp-validation-for="Date"></span>
+        </div>
+
+
+        <div class="mb-1">
+            <label for="Value" class="form-label text-light">Valor</label>
+            <input asp-for="Amount" type="text" class="form-control" id="amountInput" disabled>
+            <span class="text-danger" asp-validation-for="Amount"></span>
+        </div>
+
+
+
+        <div class="mb-1">
+            <label for="Description" class="form-label text-light">Descrição</label>
+            <input asp-for="Description" type="text" class="form-control" id="Description" disabled>
+        </div>
+
+
+        <div class="d-flex gap-5 mt-3">
+            <button type="submit" class="btn btn-danger w-50">Excluir</button>
+            <a class="btn btn-primary w-50" asp-controller="Expense" asp-action="Index">Voltar</a>
+        </div>
+
+    </form>
+</div>
+
+<script>
+
+    var formatter = new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+    });
+
+    document.getElementById('amountInput').addEventListener('input', function (e) {
+        let value = e.target.value.replace(/\D/g, '');
+        if (value.length > 0) {
+            value = (value / 100).toFixed(2).replace('.', ',');
+            e.target.value = value;
+        } else {
+            e.target.value = '0,00';
+        }
+    });
+</script> 

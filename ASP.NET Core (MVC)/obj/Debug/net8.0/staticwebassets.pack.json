@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\ASP.NET Core (MVC).bundle.scp.css"
     },
     {
+      "Id": "C:\\Projetos\\ASP.NET Core (MVC)\\ASP.NET Core (MVC)\\wwwroot\\css\\Gpt.css",
+      "PackagePath": "staticwebassets\\css\\Gpt.css"
+    },
+    {
+      "Id": "C:\\Projetos\\ASP.NET Core (MVC)\\ASP.NET Core (MVC)\\wwwroot\\css\\materia.css",
+      "PackagePath": "staticwebassets\\css\\materia.css"
+    },
+    {
+      "Id": "C:\\Projetos\\ASP.NET Core (MVC)\\ASP.NET Core (MVC)\\wwwroot\\css\\quartz.css",
+      "PackagePath": "staticwebassets\\css\\quartz.css"
+    },
+    {
       "Id": "C:\\Projetos\\ASP.NET Core (MVC)\\ASP.NET Core (MVC)\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
