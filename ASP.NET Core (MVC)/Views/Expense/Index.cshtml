@@ -1,0 +1,57 @@
+﻿@model List<Expense>
+@{
+    var totalAmount = Model.Sum(expense => expense.Amount);
+}
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1>Lista de Gastos</h1>
+        <a class="btn btn-success" asp-controller="Expense" asp-action="Create"><i class="bi bi-file-earmark-plus me-1"></i>Cadastrar novo gasto</a>
+    </div>
+
+    @if(TempData["SuccesMessage"] != null)
+    {
+        <div class="alert alert-success text-light" role="alert">
+            @TempData["SuccesMessage"]
+        </div>
+
+    }
+
+    <table id="Expense" class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Valor</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null)
+            {
+                @foreach(var expense in Model)
+                {
+                    <tr>
+                        <td class="text-light">@String.Format("{0:dd/MM/yyyy}", expense.Date)</td>
+                        <td class="text-light">@expense.Category.Name</td>
+                        <td class="text-light">@expense.Description</td>
+                        <td class="text-light amount">@String.Format("{0:C2}", expense.Amount)</td>
+                        <td>
+                            <a class="btn btn-outline-warning btn-sm" asp-controller="Expense" asp-action="Edit" asp-route-id="@expense.Id"><i class="bi bi-pen me-1"></i>Editar</a>
+                            <a class="btn btn-outline-danger btn-sm" asp-controller="Expense" asp-action="Delete" asp-route-id="@expense.Id"><i class="bi bi-trash me-1"></i>Apagar</a>
+                           
+                        </td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align:right">Total: </td>
+                <td id="totalAmount"></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
