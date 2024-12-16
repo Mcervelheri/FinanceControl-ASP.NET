@@ -29,6 +29,7 @@ namespace ASP.NET_Core__MVC_.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Expense expense)
         {
 
@@ -68,6 +69,7 @@ namespace ASP.NET_Core__MVC_.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Expense expense)
         {
             if (ModelState.IsValid)
@@ -106,6 +108,7 @@ namespace ASP.NET_Core__MVC_.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Expense expense)
         {
             if (expense == null)

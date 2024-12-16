@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\ExpenseViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Expense\DeleteConfirm.cshtml" />
   </ItemGroup>
 
@@ -35,10 +39,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Category\" />
   </ItemGroup>
 
 </Project>
